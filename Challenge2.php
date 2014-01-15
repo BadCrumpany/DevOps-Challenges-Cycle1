@@ -50,7 +50,6 @@ $i = 1; while ($i <= $numberservers) { $server->create(array(
        'networks' => array(
             $compute->network(Network::RAX_PUBLIC),
             $compute->network(Network::RAX_PRIVATE)
-
         )
    ));
 
